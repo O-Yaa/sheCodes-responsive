@@ -1,0 +1,92 @@
+wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+#contact-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+#about-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+:root {
+  --transition: all 200ms ease-in-out;
+  --box-shadow: 0 4px 10px rgba(55, 53, 53, 0.6);
+}
+
+h1,
+h2,
+#intro {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+#intro {
+  margin-top: 0;
+}
+#language {
+  font-size: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: none;
+  padding: 25px;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  margin: 15px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: var(--transition);
+}
+
+#contact-btn {
+  background-color: #793fdf;
+  color: white;
+}
+#about-btn {
+  color: #793fdf;
+  border: 1px solid #793fdf;
+}
+.contact-paragraph {
+  display: flex;
+  gap: 10px;
+}
+.contact-paragraph span {
+  text-align: justify;
+  margin: 20px;
+  padding: 15px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-home {
+  cursor: pointer;
+}
+#description-about {
+  text-align: center;
+}
+#contact-home {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #c23373;
+}
