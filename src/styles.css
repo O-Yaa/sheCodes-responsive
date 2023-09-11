@@ -90,3 +90,9 @@ a {
 a:visited {
   color: #c23373;
 }
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+
+  margin-top: 58px;
+}
