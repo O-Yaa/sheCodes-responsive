@@ -96,3 +96,15 @@ a:visited {
 
   margin-top: 58px;
 }
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    color: #c23373;
+  }
+}
